@@ -1,0 +1,46 @@
+<!-- Main Trivia Game -->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>IT Trivia</title>
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="game.css">
+	</head>
+	
+	<body class="game-background">
+		
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="learn.html">Learn</a></li>
+				<li><a href="trivia.html">Trivia</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="about_us.html">About</a></li>
+			</ul>
+		</nav>
+
+		<!-- Classic Windows inspired tab that displays interactive trivia -->
+        <div class="start-menu">
+			<div class="window-bar">
+				<h1>IT Trivia</h1>
+				<a href="index.html" class="close-button">X</a>
+			</div>
+
+			<div class="question-container">
+				<div class="timer-container">
+					Time remaining: <span id="timer">30</span>
+				</div>
+				<div id="progress">Question 1 of 10</div>
+				<h2 id="question">Question appears here</h2>
+				<div id="answer-buttons"></div>
+			</div>
+		</div>
+
+		<script src="game.js"></script>
+
+	</body>
+	
+</html>
