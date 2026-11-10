@@ -555,26 +555,3 @@ footer p {
   margin-top: 15px;
 }
 
-/* Mobile Navigation */
-@media screen and (max-width: 768px) {
-
-    .navbar {
-        height: auto;
-        min-height: 60px;
-        background-size: auto 60px;
-        background-position: left top;
-    }
-
-    .navbar ul {
-        height: auto;
-        min-height: 60px;
-        justify-content: flex-end;
-        flex-wrap: wrap;
-        padding: 0 5px 0 120px;
-    }
-
-    .navbar a {
-        padding: 20px 6px;
-        font-size: 12px;
-    }
-}
